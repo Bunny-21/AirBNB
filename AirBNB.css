@@ -1,0 +1,89 @@
+li{
+	display: inline-block;
+	/*float: right;*/
+	font-size: 20px;	
+	padding: 15px 12px;
+}
+
+#title{
+	float: left;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+ul{
+	list-style-type: none;
+	color: white;
+	text-align: right;
+
+}
+
+body{	
+	font-family: 'Exo', sans-serif;
+}
+
+#box p {
+	font-size: 25px;
+	font-weight: 1000;
+}
+
+div label {
+	padding-bottom: 5px;
+	/*padding-top: 15px; */
+	display: inline-block;
+} 
+
+
+#image{
+	background-image: url('./Images/AirBNB.jpg');
+	background-size: cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+}
+
+#box{
+height: 400px;
+width: 460px;
+background-color: white; 
+position: relative;
+top: 50px;
+left: 50px;
+border: 2px solid white;
+border-radius: 5px;
+padding: 20px;
+padding-right: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.number {
+	height: 22px;
+	width: 100%;
+	margin-right: 20px;
+}
+
+.checkin {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+}
+
+.checkin input,label{
+		width: 100%;
+
+}
+
+#checkout {
+	float: left;
+}
+
+button {
+	height: 28px;
+}
+
